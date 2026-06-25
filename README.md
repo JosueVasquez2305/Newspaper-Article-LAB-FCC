@@ -7,7 +7,7 @@ A responsive digital newspaper article styled with modern **CSS Flexbox** and se
 
 ## 🚀 Demo
 *(Once you enable GitHub Pages, you can paste the live link here!)*
-- **Live Preview:** [View Project Live](https://josuevasquez2305.github.io/Newspapper-Article-LAB-FCC/)
+- **Live Preview:** [View Project Live](https://josuevasquez2305.github.io/Newspaper-Article-LAB-FCC/)
 
 ## 🛠️ Features & Technical Implementation
 - **Semantic HTML5:** Built using meaningful elements like `<time>`, `<address>`, and `<p>` to improve accessibility and structure.
