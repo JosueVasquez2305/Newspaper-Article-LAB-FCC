@@ -1,0 +1,70 @@
+html {
+  font-size:  24px;
+}
+
+body {
+  background-color: #f2ebd9;
+  margin: 0;
+  padding: 40px 20px;  
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #eae1c8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.name  {
+  font-size: 2rem;
+  font-family: Times New Roman,serif;
+}
+
+.name, .author {
+  text-transform: uppercase;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.sub-headline  {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+  flex: 1 1 340px;
+  text-align: justify;
+  padding: 0 15px;
+}
+
+.text::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.name, .date, .headline, .sub-headline, .author {
+  width: 100%;  
+}
+
+.date {
+  border-top: 3px double #1a1a1a;
+  border-bottom: 3px double #1a1a1a;
+}
+
+.text:first-of-type {
+  border-right: 1px solid #1a1a1a;
+}
